@@ -8,3 +8,5 @@ Write to a file that the computer is still running
 4) Edit the plist file and change the PATH/TO to the path to the binary
 5) Move the plist to ~/Library/LaunchAgents
 6) run `launchctl load -w com.flattmattfanclub.am-here.plist`
+
+* note about full disk access - you can probably restrict to the Documents directory, but it's untested
